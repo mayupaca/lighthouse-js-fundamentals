@@ -1,16 +1,18 @@
-// const raining = true;
-// const cold = true;
+//if Statement
+/*
+const raining = true;
+const cold = true;
 
-// if (raining) {
-//   console.log("Don't forget your umbrella!");
-// }
+if (raining) {
+  console.log("Don't forget your umbrella!");
+}
 
-// if (cold) {
-//   console.log("Make sure you pick out a scarf!");
-// }
+if (cold) {
+  console.log("Make sure you pick out a scarf!");
+}
 
-// console.log("Now you're ready to go outside!");
-
+console.log("Now you're ready to go outside!");
+*/
 //-------------------------------
 /*
 const cold = false;
@@ -22,6 +24,7 @@ if (cold) {
 }
 */
 //--------------------------------
+/*
 const temperature = 35;
 
 if (temperature < 0) {
@@ -33,3 +36,12 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+*/
+//----------------------------------
+//Logical operators
+const isCitizen = true;
+const age 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
